@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*样式重置*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img {
+    margin: 0;
+    padding: 0
+}
+
+fieldset,img {
+    border: 0
+}
+
+img {
+    display: block
+}
+
+address,caption,cite,code,dfn,th,var {
+    font-style: normal;
+    font-weight: normal
+}
+
+ul,ol {
+    list-style: none
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun","宋体"
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+select,input {
+    vertical-align: middle
+}
+
+select,input,textarea {
+    font-size: 12px;
+    margin: 0
+}
+
+input[type="text"],input[type="password"],textarea {
+    outline-style: none;
+    -webkit-appearance: none
+}
+
+textarea {
+    resize: none
+}
+
+table {
+    border-collapse: collapse
+}
+
+a {
+    text-decoration: none;
+    color: #07111b;
+}
+
+a:active, a:focus {
+    text-decoration: none;
+}
+
+/*全局样式*/
+.hide {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.fix {
+    *zoom: 1;
+}
+
+.fix:after {
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.ell {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bold {
+    font-weight: 700 !important;
+}
