@@ -12,4 +12,16 @@ $(document).ready(function(){
         speed: 300,
         pause: 3000
     });
+
+    $('body')
+    .on('click', '.sh-search i', function() {
+        $('.search-tags').hide();
+        $('.search-input').focus();
+    })
+    .on('focus', '.search-input', function() {
+        $('.search-tags').hide();
+    })
+    .on('blur', '.search-input', function() {
+        $('.search-tags').show();
+    });
 });

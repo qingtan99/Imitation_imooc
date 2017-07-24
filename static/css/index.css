@@ -41,12 +41,21 @@ body {
 }
 
 .header-unlogin li a {
-    padding: 0 15px;
+    color: rgb(113, 119, 125);
+    padding: 0px 15px;
 }
 
 .nav-item li a:hover,
 .header-unlogin li a:hover {
     color: #f01414;
+}
+
+.header-unlogin li .icon {
+    position: relative;
+    top: -1px;
+    right: 5px;
+    vertical-align: middle;
+    font-size: 20px;
 }
 
 .search-wrap {
@@ -84,6 +93,42 @@ body {
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.sh-search {
+    width: 30px;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.sh-search i {
+    width: 30px;
+    height: 60px;
+    font-weight: 700;
+    color: rgb(117, 122, 126);
+}
+
+.sh-search i:hover {
+    color: #f01414;
+}
+
+.search-tags {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    z-index: 100;
+}
+
+.search-tags a {
+    color: rgb(147, 153, 159);
+    background-color: rgb(243, 245, 247);
+    padding: 5px 8px;
 }
 
 .main {
@@ -130,6 +175,10 @@ body {
     padding: 0 24px;
 }
 
+.menu-nav .item:hover {
+    background: rgba(7, 17, 27, 0.3);
+}
+
 .menu-item-hover {
     background-color: rgba(7,17,27, .3);
 }
@@ -140,6 +189,13 @@ body {
     padding: 0 8px;
     border-bottom: 1px solid rgba(255,255,255,.2);
     height: 63px;
+}
+
+.a-option i {
+    position: absolute;
+    right: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
 }
 
 .menu-nav .item:last-child a{
@@ -344,6 +400,10 @@ body {
     height: 20px;
     top: 0;
     right: 10px;
+}
+
+.types-title-more i {
+    font-weight: 700;
 }
 
 .course-card-container {
@@ -760,8 +820,8 @@ body {
 }
 
 .footer-sns-weibo {
-     background-position: 0 -221px;
- }
+    background-position: 0 -221px;
+}
 
 .footer-sns-weixin {
     position: relative;
