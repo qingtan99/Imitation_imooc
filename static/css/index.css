@@ -879,26 +879,3 @@ body {
 .footer-copyright p {
     word-break: break-all;
 }
-
-.go-top {
-    position: fixed;
-    padding: 0 16px;
-    bottom: 150px;
-    margin-top: -140px;
-    right: 0;
-    z-index: 999;
-    background-color: #fff;
-    box-shadow: 0 4px 12px 0 rgba(7,17,27,.1);
-}
-
-.go-top a {
-    display: block;
-    width: 26px;
-    padding: 16px 0;
-    font-size: 22px;
-    line-height: 20px;
-    color: #b5b9bc;
-    box-sizing: border-box;
-    text-align: center;
-    border-bottom: 1px solid #edf1f2;
-}
